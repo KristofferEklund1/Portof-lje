@@ -281,3 +281,15 @@ footer p:nth-child(2){
         
     }
 }
+
+@media(max-width:375px){
+    nav ul{
+        width: 375px;
+    }
+    nav ul li{
+        width: 60px;
+    }
+    nav ul li a {
+        margin: 0;
+    }
+}
